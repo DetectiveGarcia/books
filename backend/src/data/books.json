@@ -1,31 +1,53 @@
 [
-    {
-        "id": 1,
-        "title": "The Love to Operah",
-        "count": 20,
-        "isbn": "978-3-16-1484410-1",
-        "description": "Five years ago Opera didn´t feel like singing again",
-        "publishingDate": "2001-01-12",
-        "authorId": "60a3c1c4-305b-453c-ae9b-715df239c416",
-        "genres": ["horror", "mystery"]
-    },
-    {
-        "id": 2,
-        "title": "Confessions of the Junkerqueen",
-        "isbn": "901-3-16-188410-2",
-        "count": 2,
-        "description": "Junkerqueen is a bunkermeme",
-        "publishingDate": "2018-07-12",
-        "authorId": "7c33bfe1-26dc-48a3-bc1f-37c472042a51",
-        "genres": ["action", "adventure"]
-    }, 
-    {
-       "id": 3,
-       "title": "My Red and My Blue",
-       "isbn": "911-5-16-555410-3",
-       "count": 3,
-       "description": "Opposing forces meet and none shall back down!",
-       "publishingDate": "1997-12-23",
-       "genres": ["action", "sci-fi"]
-    }
+  {
+    "id": 1,
+    "title": "The Love to Operah",
+    "count": 20,
+    "isbn": "978-3-16-1484410-1",
+    "description": "Five years ago Opera didn´t feel like singing again",
+    "publishingDate": "2001-01-12",
+    "authorId": "60a3c1c4-305b-453c-ae9b-715df239c416",
+    "genres": [
+      "horror",
+      "mystery"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Confessions of the Junkerqueen",
+    "isbn": "901-3-16-188410-2",
+    "count": 2,
+    "description": "Junkerqueen is a bunkermeme",
+    "publishingDate": "2018-07-12",
+    "authorId": "7c33bfe1-26dc-48a3-bc1f-37c472042a51",
+    "genres": [
+      "action",
+      "adventure"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "My Red and My Blue",
+    "isbn": "911-5-16-555410-3",
+    "count": 3,
+    "description": "Opposing forces meet and none shall back down!",
+    "publishingDate": "1997-12-23",
+    "genres": [
+      "action",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": "738685f7-d840-459c-955e-c603f35882dc",
+    "title": "The Mystery of JavaScript Manor",
+    "count": 15,
+    "isbn": "978-1-23-456789-0",
+    "description": "Okay...?",
+    "publishingDate": "2010-05-20",
+    "authorId": "7f6de6a9-4a3c-4eae-af22-8bd87fb10f2e",
+    "genres": [
+      "horror",
+      "mystery"
+    ]
+  }
 ]

@@ -8,11 +8,11 @@ export const readDataBaseFile = async (filePath) => {
     }
     try{
      const response = await promises.readFile(filePath, "utf-8");
+     console.log("Response: ", response);
         if(!response){
-            throw new Error ("Error with response");
+            throw new Error ("Error with await promises.readFile");
         }
         const data = await JSON.parse(response);
-        console.log("Data Recieved: ", data);
         return data;
     }
     catch(error){
@@ -20,6 +20,7 @@ export const readDataBaseFile = async (filePath) => {
         throw new Error ("Check readDataBaseFile function");
     }
 };
+
 export const writeDataBaseFile = async (filePath, newData)  => {
     if(!filePath || typeof filePath !== "string"){
         throw new Error ("No path provided, file cannot be found");
@@ -38,6 +39,28 @@ export const writeDataBaseFile = async (filePath, newData)  => {
         throw new Error ("Check writeDataBaseFile function");
     }
 };
-export const validateItem = (item) => {};
+export const validateItem = (item) => {
+    let errors = {};
+    if(!item){
+        return {
+            item: "No author body submitted"
+        }
+    }
+    Object.keys(item).forEach((key) => {
+        if(!item[key] || item[key].length < 0){
+            errors[key] = `No ${key} submitted`
+        }
+    })
+    // if(!item.name){
+    //     errors.name = "No name submitted"
+    // }
+    // if(!item.yearOfBirth){
+    //     errors.yearOfBirth = "No year of birth submitted"
+    // }
+
+    
+    const hasErrors = Object.keys(errors).length > 0;
+    return [errors, hasErrors];
+};
 export const generateListId = (items) => {};
 export const generateUUID = () => {};

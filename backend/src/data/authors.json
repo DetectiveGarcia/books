@@ -5,17 +5,27 @@
     "yearOfBirth": 1968
   },
   {
-    "name": "Cillian Kreyheart",
-    "id": "7c33bfe1-26dc-bc1f-37c472042a51",
-    "yearOfBirth": 1989
-  },
-  {
     "name": "Josehp Connor Pell",
     "id": "e7F4e1ab-8057-47c4-80a6-1af77c6a67e7",
     "yearOfBirth": 1948
   },
   {
-    "id": "aec8a88e-6a35-4744-9dd2-e53e916289cf",
+    "id": "da533ed6-236d-4d54-a1ba-13f0db59eff2",
+    "name": "Achebe Chinua",
+    "yearOfBirth": 1930
+  },
+  {
+    "id": "1a014e32-6426-4f2a-acac-bb2ddd64c073",
+    "name": "Susan Abulhawa",
+    "yearOfBirth": 1970
+  },
+  {
+    "id": "ce1e274d-003b-4c11-9bd5-bb929459b4e7",
+    "name": "Cillian Kreyheart",
+    "yearOfBirth": 1989
+  },
+  {
+    "id": "39e46405-ceb8-4a46-b232-1a5d982d911c",
     "name": "J.K Rowling",
     "yearOfBirth": 1965
   }
